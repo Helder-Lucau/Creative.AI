@@ -2,15 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Saira+Condensed:wght@400;600&display=swap');
 /* font-family: 'Inconsolata', monospace; */
 /* font-family: 'Bebas Neue', sans-serif; */
 /* font-family: "Space Grotesk", sans-serif; */
 /* font-family: "Roboto Condensed", sans-serif; */
+/* font-family: 'Saira Condensed', serif; */
 
 :root {
   --primary-color: #000000;
   --second-color: #e4ebf5;
-  --text-main-color: #111111;
   --white-color: #fff;
   --hover-color: #ffdb3b;
   --global-font-family: 'Roboto Condensed', sans-serif;
@@ -29,13 +30,12 @@ header,
 }
 
 .navbar-brand,
-.text-primary,
 .offcanvas-title {
   color: var(--white-color) !important;
 }
 .nav-link {
   color: var(--white-color) !important;
-  font-weight: 500;
+  text-transform: capitalize;
 }
 .nav-link:hover {
   color: var(--hover-color) !important;
@@ -44,6 +44,11 @@ header,
 .btn-close {
   background-color: var(--white-color);
 }
-.btn-bd-primary {
-  background-color: var(--hover-color);
+
+p {
+  font-size: 18px;
+}
+
+.section-one {
+  color: var(--white-color);
 }
