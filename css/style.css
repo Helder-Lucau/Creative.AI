@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Saira+Condensed:wght@400;600&display=swap');
-/* font-family: 'Inconsolata', monospace; */
-/* font-family: 'Bebas Neue', sans-serif; */
-/* font-family: "Space Grotesk", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "Roboto Condensed", sans-serif; */
-/* font-family: 'Saira Condensed', serif; */
+/* font-family: "Nunito", sans-serif; */
+/* font-family: "Source Sans 3", sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
 
 :root {
   --primary-color: #000000;
   --second-color: #e4ebf5;
   --white-color: #fff;
-  --hover-color: #ffdb3b;
-  --global-font-family: 'Roboto Condensed', sans-serif;
+  --hover-color: #61ab9c;
+  --btn-color: #167be9;
+  --global-font-family: 'Source Sans 3', sans-serif;
 }
 
 * {
@@ -46,9 +46,22 @@ header,
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
-
 .section-one {
   color: var(--white-color);
+}
+.btn-global {
+  background-color: var(--hover-color);
+  color: var(--white-color);
+}
+.btn-global:hover {
+  background-color: var(--btn-color);
+  color: var(--white-color);
+}
+
+.card-main:hover {
+  background-color: var(--hover-color);
+  color: var(--white-color);
+  cursor: pointer;
 }
