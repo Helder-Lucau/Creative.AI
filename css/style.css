@@ -3,18 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "Roboto Condensed", sans-serif; */
 /* font-family: "Nunito", sans-serif; */
 /* font-family: "Source Sans 3", sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
+/* font-family: "Public Sans", serif;*/
 
 :root {
-  --primary-color: #000000;
-  --second-color: #e4ebf5;
-  --white-color: #fff;
-  --hover-color: #61ab9c;
-  --btn-color: #167be9;
-  --global-font-family: 'Source Sans 3', sans-serif;
+  --primary-color: #06141b;
+  --second-color: #11212d;
+  --white-color: #ffffff;
+  --hover-color: #8eb69b;
+  --btn-color: #235347;
+  --global-font-family: 'Public Sans', serif;
 }
 
 * {
@@ -27,6 +29,14 @@
 header,
 .offcanvas {
   background: var(--primary-color);
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+.dropdown-menu.show {
+  display: flex;
 }
 
 .navbar-brand,
@@ -52,11 +62,11 @@ p {
   color: var(--white-color);
 }
 .btn-global {
-  background-color: var(--hover-color);
+  background-color: var(--btn-color);
   color: var(--white-color);
 }
 .btn-global:hover {
-  background-color: var(--btn-color);
+  background-color: var(--hover-color);
   color: var(--white-color);
 }
 
@@ -64,4 +74,51 @@ p {
   background-color: var(--hover-color);
   color: var(--white-color);
   cursor: pointer;
+}
+
+/*MEET OUR TEAM*/
+.team {
+  padding: 50px 0 30px;
+  text-align: center;
+}
+
+.team h6 {
+  margin: 20px 0 10px;
+  color: #4c4c4c;
+}
+.team b {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.team p {
+  color: #737373;
+}
+.team img {
+  height: 250px;
+  width: 250px;
+  margin-top: 20px;
+}
+
+/*CLIENTS*/
+.clients {
+  padding: 50px 0 80px;
+  text-align: center;
+  /* text-align: center; */
+}
+.clients h2 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 48px;
+}
+.clients p {
+  text-align: left;
+  color: #5e5e5e;
+}
+.clients img {
+  width: 100px;
+  opacity: 0.8;
+  cursor: pointer;
+  margin: 40px 0;
+  transition: all 500ms ease-in-out;
 }

@@ -10,6 +10,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css"
+    />
     <title>Creative.ai</title>
   </head>
   <body>
@@ -56,58 +61,48 @@
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Services
+                    Solutions
                   </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Cloud Services</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">AI & ML</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Generative AI</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Software Development</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Big Data</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Industries
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="#">Healthcare</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Real Estate</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#"
-                        >Media & Entertainment</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Fintech & Banking</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">IoT</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Logistics</a>
-                    </li>
-                  </ul>
+                  <div class="dropdown-menu">
+                    <ul>
+                      <li><h6 class="dropdown-header">Services</h6></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Cloud Services</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">AI & ML</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Generative AI</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Software Development</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Big Data</a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li><h6 class="dropdown-header">Industries</h6></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Healthcare</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Real Estate</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Fintech & Banking</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">IoT</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Logistics</a>
+                      </li>
+                    </ul>
+                  </div>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -119,16 +114,18 @@
                   >
                     Company
                   </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">About Us</a></li>
-                    <li><a class="dropdown-item" href="#">Blog</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Careers</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">How we work</a>
-                    </li>
-                  </ul>
+                  <div class="dropdown-menu">
+                    <ul>
+                      <li><a class="dropdown-item" href="#">About Us</a></li>
+                      <li><a class="dropdown-item" href="#">Blog</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Careers</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">How we work</a>
+                      </li>
+                    </ul>
+                  </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">case studies</a>
@@ -145,14 +142,13 @@
       <section class="container pt-5">
         <div class="row align-items-center justify-content-center">
           <div class="col-12 col-lg-6 section-one">
-            <h1 class="display-4 fw-bold">Artificial Intelligence</h1>
+            <h1 class="fw-bold">Artificial Intelligence Services</h1>
             <p class="lead pb-4 pt-2">
-              We specialize in delivering bespoke software solutions to meet the
-              unique requirements of SMBs and large enterprises, validating
-              ideas, and developing them into products.
+              Transform your business with our innovative AI software
+              development services.
             </p>
             <button
-              class="btn px-5 py-3 d-inline-block fs-5 fw-bold btn-global"
+              class="btn px-5 py-2 d-inline-block fs-5 fw-bold btn-global"
             >
               Consultation
             </button>
@@ -332,37 +328,125 @@
           </div>
         </div>
       </section>
-      <!--MEET OUR TEAM SECTION-->
-      <section id="section-three">
-        <div class="section-name">
-          <h2>OUR TEAM</h2>
+
+      <!--OUR SERVICES SECTION-->
+      <section class="container py-2 projects">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="text-primary fs-1 fw-bold mb-3 text-center">
+              AI projects we've delivered
+            </h3>
+          </div>
         </div>
-        <div class="content">
-          <div class="profile">
-            <img src="./images/ceo.jpg" alt="ceo" />
-            <h4>Pamela Kruse</h4>
-            <p>Founder & CEO</p>
+
+        <div class="row g-4">
+          <!-- First row -->
+          <div class="col-12 col-lg-4">
+            <div class="card p-3 card-main">
+              <div class="card-body">
+                <h5 class="card-title">Machine Learning</h5>
+                <p class="card-text fw-light">
+                  Our team of machine learning developers helps our clients
+                  drive business growth and expand their businesses by
+                  extracting valuable insights from unstructured data from
+                  multiple resources.
+                </p>
+                <a href="#" class="text-decoration-none">Read more</a>
+              </div>
+            </div>
           </div>
-          <div class="profile">
-            <img src="./images/cfo.jpg" alt="ceo" />
-            <h4>Blake Howard</h4>
-            <p>Chief Finance Officer</p>
+          <div class="col-12 col-lg-4">
+            <div class="card p-3 card-main">
+              <div class="card-body">
+                <h5 class="card-title">Business Intelligence</h5>
+                <p class="card-text fw-light">
+                  We provide BI & Data Warehouse consulting services and offer
+                  Big Data analytics solutions to unlock the potential of your
+                  data available and set up efficient data management for
+                  enhanced decision-making.
+                </p>
+                <a href="#" class="text-decoration-none">Read more</a>
+              </div>
+            </div>
           </div>
-          <div class="profile">
-            <img src="./images/cto.jpg" alt="ceo" />
-            <h4>Mike Cannon</h4>
-            <p>Chief Technology Officer</p>
+          <div class="col-12 col-lg-4">
+            <div class="card p-3 card-main">
+              <div class="card-body">
+                <h5>Generative AI</h5>
+                <p class="fw-light">
+                  We empower businesses with ChatGPT solutions for workflow
+                  automation, improved customer service and faster
+                  decision-making. We provide integration and customization on
+                  demand.
+                </p>
+                <a href="#" class="text-decoration-none">Read more</a>
+              </div>
+            </div>
           </div>
-          <div class="profile">
-            <img src="./images/hr.jpg" alt="ceo" />
-            <h4>Patrick Chalmers</h4>
-            <p>HR Manager</p>
+        </div>
+      </section>
+
+      <!--MEET OUR TEAM SECTION-->
+      <section id="team" class="container team">
+        <h2>Meet our team</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi id
+          soluta voluptatum? Nisi perspiciatis voluptate quibusdam, quod odit
+          laudantium cum iste quo dolor, debitis provident accusamus praesentium
+          est aspernatur officiis.
+        </p>
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <img src="./assets/ceo.jpg" class="img-circle" alt="ceo" />
+            <h6>Pamela Kruse</h6>
+            <b>ai practice lead</b>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <img src="./assets/cfo.jpg" class="img-circle" alt="ceo" />
+            <h6>Blake Howard</h6>
+            <b>ai enginnering lead</b>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <img src="./assets/cto.jpg" class="img-circle" alt="ceo" />
+            <h6>Mike Cannon</h6>
+            <b>machine learning enginner</b>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <img src="./assets/hr.jpg" class="img-circle" alt="ceo" />
+            <h6>Patrick Chalmers</h6>
+            <b>machine learning enginner</b>
+          </div>
+        </div>
+      </section>
+      <!--OUR CLIENTS-->
+      <section id="client" class="clients">
+        <div class="container">
+          <div class="row">
+            <h2>Our clients</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem,
+              veniam facilis? Quod quos laudantium iste dicta eos vel corporis
+              sapiente animi dolorum amet. Nihil nobis explicabo molestias iusto
+              amet voluptas.
+            </p>
+            <div class="col-lg-3 col-md-3">
+              <img src="./assets/partners/discord.png" alt="discord logo" />
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <img src="./assets/partners/visa.png" alt="discord logo" />
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <img src="./assets/partners/github.png" alt="discord logo" />
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <img src="./assets/partners/figma.png" alt="discord logo" />
+            </div>
           </div>
         </div>
       </section>
       <!--CONTACT US-->
-      <section class="section-four">
-        <h1>Get In Touch!</h1>
+      <section>
+        <h2>Get In Touch!</h2>
         <form>
           <input type="text" name="name" value="name" />
           <input type="text" name="email" value="email" />
