@@ -99,6 +99,25 @@ p {
   margin-top: 20px;
 }
 
+/*PROJECTS*/
+.projects {
+  background-color: var(--primary-color);
+}
+.projects .card {
+  border-radius: 0;
+}
+.projects img {
+  opacity: 0.5;
+  border-radius: 0;
+}
+.projects h3 {
+  font-weight: bolder;
+}
+.projects .row .projects-heading {
+  font-size: 48px;
+  color: var(--white-color);
+}
+
 /*CLIENTS*/
 .clients {
   padding: 50px 0 80px;
@@ -117,7 +136,7 @@ p {
 }
 .clients img {
   width: 100px;
-  opacity: 0.8;
+  /* opacity: 1; */
   cursor: pointer;
   margin: 40px 0;
   transition: all 500ms ease-in-out;
