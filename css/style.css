@@ -114,22 +114,21 @@ header,
   font-weight: bolder;
 }
 .projects .row .projects-heading {
-  font-size: 48px;
+  /* font-size: 48px; */
   color: var(--white-color);
   font-family: 'Raleway';
 }
 
 /*CLIENTS*/
 .clients {
-  padding: 50px 0 80px;
+  padding: 50px 0 50px;
   text-align: center;
-  /* text-align: center; */
 }
 .clients h2 {
   text-align: left;
   text-transform: uppercase;
   font-weight: bolder;
-  font-size: 48px;
+  /* font-size: 48px; */
 }
 .clients p {
   text-align: left;
@@ -137,22 +136,24 @@ header,
 }
 .clients img {
   width: 100px;
-  /* opacity: 1; */
   cursor: pointer;
   margin: 40px 0;
   transition: all 500ms ease-in-out;
 }
 
 /*REVIEW*/
-.review {
-  background-color: var(--primary-color);
+.client-review {
+  background-image: url('../assets/visax.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--white-color);
 }
-.review .carousel-img {
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
-  opacity: 0.8;
+.carousel-inner {
+  height: auto;
+}
+.carousel-item q {
+  font-family: 'Raleway';
 }
 
 /*FOOTER*/
