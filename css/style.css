@@ -116,6 +116,7 @@ p {
 .projects .row .projects-heading {
   font-size: 48px;
   color: var(--white-color);
+  font-family: 'Raleway';
 }
 
 /*CLIENTS*/
@@ -140,4 +141,25 @@ p {
   cursor: pointer;
   margin: 40px 0;
   transition: all 500ms ease-in-out;
+}
+
+.footer {
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+/* .footer-logo {
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+} */
+.footer h4 {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.footer p {
+  font-size: 12px;
+  text-align: justify;
+  padding-right: 35px;
 }
