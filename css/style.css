@@ -55,10 +55,7 @@ header,
   background-color: var(--white-color);
 }
 
-/* p {
-  font-size: 16px;
-} */
-.section-one {
+.hero-section {
   color: var(--white-color);
 }
 .btn-global {
