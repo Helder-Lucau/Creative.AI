@@ -78,7 +78,6 @@ header,
   padding: 50px 0 30px;
   text-align: center;
 }
-
 .team h6 {
   margin: 20px 0 10px;
   color: #4c4c4c;
@@ -120,12 +119,6 @@ header,
 .clients {
   padding: 50px 0 50px;
   text-align: center;
-}
-.clients h2 {
-  text-align: left;
-  text-transform: uppercase;
-  font-weight: bolder;
-  /* font-size: 48px; */
 }
 .clients p {
   text-align: left;
