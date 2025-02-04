@@ -55,9 +55,9 @@ header,
   background-color: var(--white-color);
 }
 
-p {
+/* p {
   font-size: 16px;
-}
+} */
 .section-one {
   color: var(--white-color);
 }
@@ -143,6 +143,19 @@ p {
   transition: all 500ms ease-in-out;
 }
 
+/*REVIEW*/
+.review {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.review .carousel-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+/*FOOTER*/
 .footer {
   padding: 20px;
   background-color: var(--primary-color);
