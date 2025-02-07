@@ -146,11 +146,61 @@ header,
   font-family: 'Raleway';
 }
 
-/*FOOTER*/
-.footer {
-  padding: 20px;
-  background-color: var(--primary-color);
+/*------SUBSCRIBE---------*/
+.subscribe {
+  padding: 50px 20px;
+  background-image: url('../assets/newsletter.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--white-color);
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.subscribe .input-group {
+  border-radius: 30px;
+  overflow: hidden;
+  background: #fff;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 5px;
+}
+.subscribe .form-control {
+  border: none;
+  background: transparent;
+  border-radius: 30px;
+}
+.subscribe .form-control:focus {
+  box-shadow: none;
+  background: transparent;
+}
+.subscribe .input-group-text {
+  background: var(--btn-color);
+  border: none;
+  color: var(--white-color);
+  border-radius: 30px;
+}
+.subscribe .input-group-text:hover {
+  background: var(--hover-color);
+  border: none;
+  color: var(--white-color);
+  border-radius: 30px;
+}
+.subscribe .btn:focus {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+/*------END SUBSCRIBE---------*/
+
+/*------FOOTER-------*/
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: var(--white-color);
+  color: var(--primary-color);
 }
 /* .footer-logo {
   width: 150px;
