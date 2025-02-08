@@ -16,7 +16,7 @@
   --white-color: #ffffff;
   --hover-color: #8eb69b;
   --btn-color: #235347;
-  --global-font-family: 'Public Sans', serif;
+  --global-font-family: 'Nunito', sans-serif;
 }
 
 * {
@@ -46,7 +46,6 @@ a:hover {
   left: 0;
   right: 0;
   z-index: 11;
-  /* background: transparent; */
   transition: 0.3s background;
 }
 .main-header .navbar {
@@ -59,18 +58,36 @@ a:hover {
   padding: 0 5px;
   line-height: 35px;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 1px;
   position: relative;
 }
-
+.text-primary {
+  color: var(--hover-color) !important;
+}
 .dropdown-item {
-  color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+}
+.contact-us {
+  padding: 8px 20px;
+  border: 2px solid var(--hover-color);
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--hover-color) !important;
+  transition: ease all 0.3s;
+}
+.contact-us:hover {
+  color: var(--white-color) !important;
+  background: var(--btn-color);
+  border: none;
 }
 
 @media (max-width: 991px) {
   .main-header .navbar-collapse {
-    /* /* border-bottom: 1px solid var(--white-color); */
+    border-bottom: 1px solid var(--white-color);
     border-top: 1px solid var(--white-color);
     position: absolute;
     top: 100%;
@@ -78,7 +95,7 @@ a:hover {
     right: 0;
     background: var(--second-color);
     z-index: 1;
-    height: 400px;
+    /* height: 400px; */
   }
   .main-header .navbar-nav > li > .nav-link {
     line-height: 50px;
