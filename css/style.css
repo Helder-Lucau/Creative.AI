@@ -23,13 +23,93 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: var(--global-font-family);
 }
 
-header,
-.offcanvas {
+body {
+  font-family: var(--global-font-family);
+}
+header {
   background: var(--primary-color);
 }
+a {
+  text-decoration: none;
+  color: var(--white-color) !important;
+}
+a:hover {
+  color: var(--hover-color);
+}
+
+/*Navbar*/
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  /* background: transparent; */
+  transition: 0.3s background;
+}
+.main-header .navbar {
+  padding: 15px 0;
+}
+.main-header .navbar-nav > li {
+  padding: 0 10px;
+}
+.main-header .navbar-nav > li > .nav-link {
+  padding: 0 5px;
+  line-height: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.dropdown-item {
+  color: var(--primary-color) !important;
+}
+
+@media (max-width: 991px) {
+  .main-header .navbar-collapse {
+    /* /* border-bottom: 1px solid var(--white-color); */
+    border-top: 1px solid var(--white-color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--second-color);
+    z-index: 1;
+    height: 400px;
+  }
+  .main-header .navbar-nav > li > .nav-link {
+    line-height: 50px;
+  }
+  .main-header .navbar-toggler {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 4px 9px;
+    outline: none;
+    box-shadow: none;
+  }
+  .main-header .navbar-toggler span {
+    width: 25px;
+    height: 2px;
+    margin: 4px 0;
+    background-color: var(--primary-color);
+    transition: 0.3s;
+  }
+  .main-header .navbar-toggler:not(.collapsed) span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  .main-header .navbar-toggler:not(.collapsed) span:nth-child(2) {
+    opacity: 0;
+  }
+  .main-header .navbar-toggler:not(.collapsed) span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+}
+
+/*End Navbar*/
 
 .dropdown-menu ul {
   list-style: none;
@@ -38,11 +118,6 @@ header,
 .dropdown-menu.show {
   display: flex;
 }
-
-.navbar-brand,
-.offcanvas-title {
-  color: var(--white-color) !important;
-}
 .nav-link {
   color: var(--white-color) !important;
   text-transform: capitalize;
@@ -50,11 +125,11 @@ header,
 .nav-link:hover {
   color: var(--hover-color) !important;
 }
-.navbar-toggler,
-.btn-close {
+.navbar-toggler {
   background-color: var(--white-color);
 }
 
+/*Hero*/
 .hero-section {
   color: var(--white-color);
 }
@@ -72,6 +147,7 @@ header,
   color: var(--white-color);
   cursor: pointer;
 }
+/*End Hero*/
 
 /*MEET OUR TEAM*/
 .team {
@@ -199,8 +275,8 @@ header,
 .footer {
   margin-top: 50px;
   padding: 20px;
-  background-color: var(--white-color);
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--white-color);
 }
 /* .footer-logo {
   width: 150px;
