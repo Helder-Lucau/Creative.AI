@@ -14,9 +14,10 @@
   --primary-color: #06141b;
   --second-color: #11212d;
   --white-color: #ffffff;
-  --hover-color: #8eb69b;
-  --btn-color: #235347;
-  --global-font-family: 'Nunito', sans-serif;
+  --hover-color: #94d7f2;
+  --btn-color: #2685bf;
+  --link: #235347;
+  --global-font-family: 'Source Sans 3', sans-serif;
 }
 
 * {
@@ -47,6 +48,7 @@ a:hover {
   right: 0;
   z-index: 11;
   transition: 0.3s background;
+  /* background: transparent; */
 }
 .main-header .navbar {
   padding: 15px 0;
@@ -63,7 +65,7 @@ a:hover {
   position: relative;
 }
 .text-primary {
-  color: var(--hover-color) !important;
+  color: var(--btn-color) !important;
 }
 .dropdown-item {
   color: var(--secondary-color) !important;
@@ -125,9 +127,6 @@ a:hover {
     transform: translateY(-10px) rotate(-45deg);
   }
 }
-
-/*End Navbar*/
-
 .dropdown-menu ul {
   list-style: none;
   padding: 0;
@@ -146,7 +145,12 @@ a:hover {
   background-color: var(--white-color);
 }
 
+/*End Navbar*/
+
 /*Hero*/
+.hero {
+  background-color: var(--primary-color);
+}
 .hero-section {
   color: var(--white-color);
 }
@@ -164,7 +168,31 @@ a:hover {
   color: var(--white-color);
   cursor: pointer;
 }
+@media (max-width: 767px) {
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+}
 /*End Hero*/
+
+/*ABOUT US*/
+.about-section {
+  background: var(--second-color);
+  color: var(--white-color);
+}
+.btn-learn-more {
+  background: transparent;
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.btn-learn-more:hover {
+  background: var(--btn-color);
+}
 
 /*MEET OUR TEAM*/
 .team {
@@ -188,27 +216,27 @@ a:hover {
   margin-top: 20px;
 }
 
-/*PROJECTS*/
+/*----PROJECTS----*/
 .projects {
   background-color: var(--primary-color);
 }
-.projects .card {
-  border-radius: 0;
-}
 .projects img {
   opacity: 0.5;
-  border-radius: 0;
+  /* border-radius: 0; */
 }
 .projects h3 {
   font-weight: bolder;
-}
-.projects .row .projects-heading {
-  /* font-size: 48px; */
   color: var(--white-color);
   font-family: 'Raleway';
 }
+.projects .card {
+  border: 2px solid var(--white-color);
+  box-shadow: 0 0 0 0 var(--primary-color);
+  display: flex;
+}
+/*----End Projects----*/
 
-/*CLIENTS*/
+/*----Clients----*/
 .clients {
   padding: 50px 0 50px;
   text-align: center;
@@ -223,6 +251,7 @@ a:hover {
   margin: 40px 0;
   transition: all 500ms ease-in-out;
 }
+/*----End Clients----*/
 
 /*REVIEW*/
 .client-review {
@@ -320,6 +349,6 @@ a:hover {
 }
 .footer span {
   text-decoration: underline;
-  color: var(--btn-color);
+  color: var(--link);
   cursor: pointer;
 }
