@@ -89,15 +89,12 @@ a:hover {
 
 @media (max-width: 991px) {
   .main-header .navbar-collapse {
-    border-bottom: 1px solid var(--white-color);
-    border-top: 1px solid var(--white-color);
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     background: var(--second-color);
     z-index: 1;
-    /* height: 400px; */
   }
   .main-header .navbar-nav > li > .nav-link {
     line-height: 50px;
@@ -144,7 +141,6 @@ a:hover {
 .navbar-toggler {
   background-color: var(--white-color);
 }
-
 /*End Navbar*/
 
 /*Hero*/
@@ -176,7 +172,7 @@ a:hover {
 }
 /*End Hero*/
 
-/*ABOUT US*/
+/*----About us----*/
 .about-section {
   background: var(--second-color);
   color: var(--white-color);
@@ -193,6 +189,7 @@ a:hover {
 .btn-learn-more:hover {
   background: var(--btn-color);
 }
+/*----End About us----*/
 
 /*MEET OUR TEAM*/
 .team {
