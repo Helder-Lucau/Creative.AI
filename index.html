@@ -146,7 +146,7 @@
     <main>
       <!--Hero section-->
       <section class="hero">
-        <div class="container">
+        <div class="container py-5">
           <div class="row pt-5 align-items-center justify-content-center">
             <div
               class="col-12 col-lg-6 hero-section animate__animated animate__fadeInLeft"
@@ -186,7 +186,7 @@
       <section class="about-section">
         <div class="container py-5">
           <div class="row g-5">
-            <div class="col-12 col-lg-5 d-none d-sm-block">
+            <div class="col-12 col-lg-5 d-none d-md-none d-sm-block d-lg-block">
               <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
               <lottie-player
                 src="https://lottie.host/c62f8ae5-731a-43bd-b17c-449d96adce40/ODtTkpMRTx.json"
@@ -248,8 +248,8 @@
 
         <div class="row g-4">
           <!-- First row -->
-          <div class="col-12 col-lg-4">
-            <div class="card p-3 card-main">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card p-3 h-100 card-main">
               <div class="card-body">
                 <h5 class="card-title">Machine Learning</h5>
                 <p class="card-text fw-light">
@@ -261,8 +261,8 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
-            <div class="card p-3 card-main">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card p-3 h-100 card-main">
               <div class="card-body">
                 <h5 class="card-title">Business Intelligence</h5>
                 <p class="card-text fw-light">
@@ -274,8 +274,8 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
-            <div class="card p-3 card-main">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card p-3 h-100 card-main">
               <div class="card-body">
                 <h5 class="card-title">Generative AI</h5>
                 <p class="card-text fw-light">
@@ -287,12 +287,8 @@
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="row g-4 mt-1">
-          <!-- Second row -->
-          <div class="col-12 col-lg-4">
-            <div class="card p-3 card-main">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card p-3 h-100 card-main">
               <div class="card-body">
                 <h5>Natural Language Processing</h5>
                 <p class="fw-light">
@@ -304,8 +300,8 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
-            <div class="card p-3 card-main">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card p-3 h-100 card-main">
               <div class="card-body">
                 <h5>Computer Vision / OCR</h5>
                 <p class="fw-light">
@@ -317,8 +313,8 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
-            <div class="card p-3 card-main">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card p-3 h-100 card-main">
               <div class="card-body">
                 <h5>Predictive Analytics</h5>
                 <p class="fw-light">
@@ -330,40 +326,44 @@
             </div>
           </div>
         </div>
+
+        <!-- Second row -->
       </section>
 
       <!--Our Projects-->
       <section class="py-5 px-2 projects">
-        <h3 class="mb-4 projects-heading fs-1">
-          AI consulting projects we've delivered
-        </h3>
-        <div class="owl-carousel">
-          <div class="card text-bg-dark mb-4">
-            <img src="./assets/bigdata.jpg" class="card-img" alt="..." />
-            <div class="card-img-overlay">
-              <h3 class="card-title fs-1">
-                AI-powered self-service BI and big data platform
-              </h3>
+        <div class="container">
+          <h3 class="mb-4 projects-heading fs-1">
+            AI consulting projects we've delivered
+          </h3>
+          <div class="owl-carousel">
+            <div class="card text-bg-dark mb-4">
+              <img src="./assets/bigdata.jpg" class="card-img" alt="..." />
+              <div class="card-img-overlay">
+                <h3 class="card-title fs-1">
+                  AI-powered self-service BI and big data platform
+                </h3>
+              </div>
             </div>
-          </div>
-          <div class="card text-bg-dark mb-4">
-            <img
-              src="./assets/machinelearning.jpg"
-              class="card-img"
-              alt="..."
-            />
-            <div class="card-img-overlay">
-              <h3 class="card-title fs-1">
-                Machine Learning for Marketing Campaigns
-              </h3>
+            <div class="card text-bg-dark mb-4">
+              <img
+                src="./assets/machinelearning.jpg"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay">
+                <h3 class="card-title fs-1">
+                  Machine Learning for Marketing Campaigns
+                </h3>
+              </div>
             </div>
-          </div>
-          <div class="card text-bg-dark">
-            <img src="./assets/airportbelt.jpg" class="card-img" alt="..." />
-            <div class="card-img-overlay">
-              <h3 class="card-title fs-1">
-                Conveyor belt anomaly detection system for airports
-              </h3>
+            <div class="card text-bg-dark">
+              <img src="./assets/airportbelt.jpg" class="card-img" alt="..." />
+              <div class="card-img-overlay">
+                <h3 class="card-title fs-1">
+                  Conveyor belt anomaly detection system for airports
+                </h3>
+              </div>
             </div>
           </div>
         </div>
@@ -382,17 +382,33 @@
               sapiente animi dolorum amet. Nihil nobis explicabo molestias iusto
               amet voluptas.
             </p>
-            <div class="col-lg-3 col-md-3">
-              <img src="./assets/partners/discord.png" alt="discord logo" />
+            <div class="col-lg-3 col-md-4 col-6 mb-4">
+              <img
+                src="./assets/partners/discord.png"
+                alt="Discord Logo"
+                class="img-fluid d-block mx-auto"
+              />
             </div>
-            <div class="col-lg-3 col-md-3">
-              <img src="./assets/partners/visa.png" alt="discord logo" />
+            <div class="col-lg-3 col-md-4 col-6 mb-4">
+              <img
+                src="./assets/partners/visa.png"
+                alt="Visa Logo"
+                class="img-fluid d-block mx-auto"
+              />
             </div>
-            <div class="col-lg-3 col-md-3">
-              <img src="./assets/partners/github.png" alt="discord logo" />
+            <div class="col-lg-3 col-md-4 col-6 mb-4">
+              <img
+                src="./assets/partners/github.png"
+                alt="GitHub Logo"
+                class="img-fluid d-block mx-auto"
+              />
             </div>
-            <div class="col-lg-3 col-md-3">
-              <img src="./assets/partners/figma.png" alt="discord logo" />
+            <div class="col-lg-3 col-md-4 col-6 mb-4">
+              <img
+                src="./assets/partners/figma.png"
+                alt="Figma Logo"
+                class="img-fluid d-block mx-auto"
+              />
             </div>
           </div>
         </div>
@@ -491,34 +507,48 @@
       </section>
 
       <!--MEET OUR TEAM SECTION-->
-      <section class="team">
-        <div class="container">
-          <h2 class="text-uppercase fs-1 fw-bold">Meet our team</h2>
-          <p>
-            At our company, we help our clients evaluate the return on
-            investment of AI projects in advance.
-          </p>
-          <div class="row">
-            <div class="col-lg-3 col-md-3">
-              <img src="./assets/ceo.jpg" class="img-circle" alt="ceo" />
-              <h6>Pamela Kruse</h6>
-              <b>ai practice lead</b>
-            </div>
-            <div class="col-lg-3 col-md-3">
-              <img src="./assets/cfo.jpg" class="img-circle" alt="ceo" />
-              <h6>Blake Howard</h6>
-              <b>ai enginnering lead</b>
-            </div>
-            <div class="col-lg-3 col-md-3">
-              <img src="./assets/cto.jpg" class="img-circle" alt="ceo" />
-              <h6>Mike Cannon</h6>
-              <b>machine learning enginner</b>
-            </div>
-            <div class="col-lg-3 col-md-3">
-              <img src="./assets/hr.jpg" class="img-circle" alt="ceo" />
-              <h6>Patrick Chalmers</h6>
-              <b>machine learning enginner</b>
-            </div>
+      <section class="team container">
+        <h2 class="text-uppercase fs-1 fw-bold">Meet our team</h2>
+        <p>
+          At our company, we help our clients evaluate the return on investment
+          of AI projects in advance.
+        </p>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3 text-center mb-4">
+            <img
+              src="./assets/ceo.jpg"
+              class="img-fluid"
+              alt="Pamela Kruse - AI Practice Lead"
+            />
+            <h6 class="mt-3">Pamela Kruse</h6>
+            <b>AI Practice Lead</b>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 text-center mb-4">
+            <img
+              src="./assets/cfo.jpg"
+              class="img-fluid"
+              alt="Blake Howard - AI Engineering Lead"
+            />
+            <h6 class="mt-3">Blake Howard</h6>
+            <b>AI Engineering Lead</b>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 text-center mb-4">
+            <img
+              src="./assets/cto.jpg"
+              class="img-fluid"
+              alt="Mike Cannon - Machine Learning Engineer"
+            />
+            <h6 class="mt-3">Mike Cannon</h6>
+            <b>Machine Learning Engineer</b>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 text-center mb-4">
+            <img
+              src="./assets/hr.jpg"
+              class="img-fluid"
+              alt="Patrick Chalmers - Machine Learning Engineer"
+            />
+            <h6 class="mt-3">Patrick Chalmers</h6>
+            <b>Machine Learning Engineer</b>
           </div>
         </div>
       </section>
