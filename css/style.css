@@ -28,6 +28,7 @@
 
 body {
   font-family: var(--global-font-family);
+  overflow-x: hidden;
 }
 header {
   background: var(--primary-color);
@@ -43,6 +44,7 @@ a:hover {
 /*Navbar*/
 .main-header {
   position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -95,6 +97,7 @@ a:hover {
     right: 0;
     background: var(--second-color);
     z-index: 1;
+    width: 100%;
   }
   .main-header .navbar-nav > li > .nav-link {
     line-height: 50px;
@@ -194,6 +197,7 @@ a:hover {
 /*----PROJECTS----*/
 .projects {
   background-color: var(--primary-color);
+  cursor: pointer;
 }
 .projects img {
   opacity: 0.5;
@@ -279,6 +283,7 @@ a:hover {
   height: 250px;
   width: 250px;
   margin-top: 20px;
+  border-radius: 5px;
 }
 
 /*------SUBSCRIBE---------*/
