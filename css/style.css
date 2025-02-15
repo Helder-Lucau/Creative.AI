@@ -29,7 +29,6 @@
 body {
   font-family: var(--global-font-family);
   overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
 }
 header {
   background: var(--primary-color);
@@ -169,8 +168,8 @@ a:hover {
 }
 
 .card-main:hover {
-  background-color: var(--hover-color);
-  color: var(--white-color);
+  border: 1px solid var(--btn-color);
+  color: var(--btn-color);
   cursor: pointer;
 }
 @media (max-width: 767px) {
@@ -238,13 +237,9 @@ a:hover {
 /*----End Projects----*/
 
 /*----Clients----*/
-/* .clients {
-  padding: 50px 0 50px;
-} */
 .clients img {
-  width: 100px;
+  width: 80px;
   cursor: pointer;
-  margin: 40px 0;
   transition: all 500ms ease-in-out;
 }
 /*----End Clients----*/
