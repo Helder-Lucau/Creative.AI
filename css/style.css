@@ -166,6 +166,10 @@ a:hover {
   background-color: var(--hover-color);
   color: var(--white-color);
 }
+.btn-global:hover i {
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease;
+}
 
 .card-main:hover {
   border: 1px solid var(--btn-color);
