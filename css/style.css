@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
 /* font-family: "Roboto Condensed", sans-serif; */
 /* font-family: "Nunito", sans-serif; */
 /* font-family: "Source Sans 3", sans-serif; */
@@ -17,7 +17,7 @@
   --hover-color: #94d7f2;
   --btn-color: #2685bf;
   --link: #235347;
-  --global-font-family: 'Source Sans 3', sans-serif;
+  --global-font-family: 'Raleway', sans-serif;
 }
 
 * {
@@ -215,7 +215,7 @@ a:hover {
 .projects h3 {
   font-weight: bolder;
   color: var(--white-color);
-  font-family: 'Raleway';
+  /* font-family: 'Raleway'; */
 }
 .projects .card {
   border: 2px solid var(--white-color);
@@ -259,9 +259,9 @@ a:hover {
 .carousel-inner {
   height: auto;
 }
-.carousel-item q {
+/* .carousel-item q {
   font-family: 'Raleway';
-}
+} */
 
 /*MEET OUR TEAM*/
 .team {
