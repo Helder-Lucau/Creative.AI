@@ -1,14 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
-/* font-family: "Roboto Condensed", sans-serif; */
-/* font-family: "Nunito", sans-serif; */
-/* font-family: "Source Sans 3", sans-serif; */
-/* font-family: 'Raleway', sans-serif; */
-/* font-family: "Public Sans", serif;*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
 
 :root {
   --primary-color: #06141b;
@@ -17,7 +10,7 @@
   --hover-color: #94d7f2;
   --btn-color: #2685bf;
   --link: #235347;
-  --global-font-family: 'Raleway', sans-serif;
+  --global-font-family: 'DM Sans', serif;
 }
 
 * {
@@ -65,6 +58,9 @@ a:hover {
   text-transform: capitalize;
   letter-spacing: 1px;
   position: relative;
+}
+.main-header h2 {
+  font-family: 'Grandstander', serif;
 }
 .text-primary {
   color: var(--btn-color) !important;
@@ -332,20 +328,22 @@ a:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+/* .subscribe h3 {
+  font-family: 'Grandstander', serif;
+} */
 /*------END SUBSCRIBE---------*/
 
 /*------FOOTER-------*/
 .footer {
   margin-top: 50px;
   padding: 20px;
-  /* background-color: var(--primary-color); */
-  /* color: var(--second-color); */
 }
-/* .footer-logo {
-  width: 150px;
+.footer-logo {
+  /* width: 150px;
   margin-top: 15px;
-  margin-bottom: 15px;
-} */
+  margin-bottom: 15px; */
+  font-family: 'Grandstander', serif;
+}
 .footer h4 {
   text-align: left;
   margin-top: 15px;
