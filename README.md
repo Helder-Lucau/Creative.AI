@@ -4,35 +4,35 @@ Welcome to Creative.ai, a company dedicated to pushing the boundaries of innovat
 
 ## Technologies Used
 
-### HTML 
+### HTML
 
 - It was used to structure the different sections, including headings, paragraphs, buttons, forms, and images, organizing the content into a readable format.
 
-### CSS 
+### CSS
 
 - Was applied to customize the layout, fonts, colors, and other design elements to align with the company’s brand identity.
 
-### JavaScript 
+### JavaScript
 
 - Was used to animate the numbers, gradually increasing them from 0 to the target value within a specified time interval (8 seconds).
 
-### Bootstrap 
+### Bootstrap
 
 - Was used to organize the layout into rows and columns, making the page responsive. Pre-built components like navigation bars, buttons, modals, and carousels were used to simplify development and ensure consistency in the design.
 
-### jQuery 
+### jQuery
 
 - jQuery's Owl Carousel plugin was initialized with settings like autoplay, loop, and responsive breakpoints to ensure smooth navigation and a pleasant user experience across devices.
 
-### Owl Carousel 
+### Owl Carousel (https://owlcarousel2.github.io/OwlCarousel2/)
 
 - Used to create a responsive, interactive carousel for displaying multiple items
 
-### Animate.css 
+### Animate.css (https://animate.style/)
 
 - Was applied to various elements on the page (such as text or images) to animate them as they enter the viewport or when users interact with them.
 
-### LottieFiles 
+### LottieFiles (https://lottiefiles.com/)
 
 - Was used to embed an animated JSON file into your webpage, providing an interactive and lightweight animation.
 
