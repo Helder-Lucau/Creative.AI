@@ -18,7 +18,7 @@ $(document).ready(function () {
 
 // Number counting animation
 let valueDisplays = document.querySelectorAll(".countdown")
-let interval = 2000
+let interval = 8000
 valueDisplays.forEach((display) => {
     let startValue = 0;
     let endValue = parseFloat(display.getAttribute("data-val"));
@@ -34,3 +34,5 @@ valueDisplays.forEach((display) => {
         }
     }, duration)
 })
+
+

@@ -13,6 +13,10 @@
   --global-font-family: 'DM Sans', serif;
 }
 
+.animate__animated.animate__bounceInLeft {
+  --animate-delay: 0.4s;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -339,9 +343,6 @@ a:hover {
   padding: 20px;
 }
 .footer-logo {
-  /* width: 150px;
-  margin-top: 15px;
-  margin-bottom: 15px; */
   font-family: 'Grandstander', serif;
 }
 .footer h4 {
@@ -367,6 +368,9 @@ a:hover {
 .footer hr {
   margin-top: 10px;
   background: var(--white-color);
+}
+.footer .copyright {
+  display: block;
 }
 .footer span a {
   text-decoration: underline;
