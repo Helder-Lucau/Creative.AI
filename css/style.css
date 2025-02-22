@@ -16,6 +16,9 @@
 .animate__animated.animate__bounceInLeft {
   --animate-delay: 0.4s;
 }
+.animate__animated.animate__fadeInDown {
+  --animate-delay: 1.5s;
+}
 
 * {
   padding: 0;
