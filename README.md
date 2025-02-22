@@ -2,30 +2,39 @@
 
 Welcome to Creative.ai, a company dedicated to pushing the boundaries of innovation and harnessing the power of artificial intelligence to unlock new creative possibilities. Our mission is to help individuals and businesses elevate their ideas with cutting-edge technology, making creativity smarter, faster, and more accessible.
 
-## What We Offer
-
-- AI-Driven Design Solutions: Seamlessly generate stunning visuals and designs powered by advanced AI algorithms.
-- Creative Content Generation: Effortlessly create engaging, relevant content for marketing, advertising, and more.
-- Developer Tools: Enhance your coding and development workflow with AI tools that boost efficiency and creativity.
-- Custom AI Solutions: Tailored tools that cater to startups, marketers, and developers, designed to enhance and accelerate the creative process.
-
 ## Technologies Used
 
-- HTML - It was used to structure the different sections, including headings, paragraphs, buttons, forms, and images, organizing the content into a readable format.
+### HTML 
 
-- CSS - was applied to customize the layout, fonts, colors, and other design elements to align with the company’s brand identity.
+- It was used to structure the different sections, including headings, paragraphs, buttons, forms, and images, organizing the content into a readable format.
 
-- JavaScript - was used to animate the numbers, gradually increasing them from 0 to the target value within a specified time interval (8 seconds).
+### CSS 
 
-- Bootstrap - was used to organize the layout into rows and columns, making the page responsive. Pre-built components like navigation bars, buttons, modals, and carousels were used to simplify development and ensure consistency in the design.
+- Was applied to customize the layout, fonts, colors, and other design elements to align with the company’s brand identity.
 
-- jQuery - jQuery's Owl Carousel plugin was initialized with settings like autoplay, loop, and responsive breakpoints to ensure smooth navigation and a pleasant user experience across devices.
+### JavaScript 
 
-- Owl Carousel - Used to create a responsive, interactive carousel for displaying multiple items
+- Was used to animate the numbers, gradually increasing them from 0 to the target value within a specified time interval (8 seconds).
 
-- Animate.css - was applied to various elements on the page (such as text or images) to animate them as they enter the viewport or when users interact with them.
+### Bootstrap 
 
-- LottieFiles - was used to embed an animated JSON file into your webpage, providing an interactive and lightweight animation.
+- Was used to organize the layout into rows and columns, making the page responsive. Pre-built components like navigation bars, buttons, modals, and carousels were used to simplify development and ensure consistency in the design.
+
+### jQuery 
+
+- jQuery's Owl Carousel plugin was initialized with settings like autoplay, loop, and responsive breakpoints to ensure smooth navigation and a pleasant user experience across devices.
+
+### Owl Carousel 
+
+- Used to create a responsive, interactive carousel for displaying multiple items
+
+### Animate.css 
+
+- Was applied to various elements on the page (such as text or images) to animate them as they enter the viewport or when users interact with them.
+
+### LottieFiles 
+
+- Was used to embed an animated JSON file into your webpage, providing an interactive and lightweight animation.
 
 ## Screenshoots
 
@@ -43,11 +52,11 @@ Welcome to Creative.ai, a company dedicated to pushing the boundaries of innovat
 
 ### Mobile Responsive
 
-<img src="/assets/screenshots/mobileresponsive.png" alt="hosplist">
+<img src="/assets/screenshots/mobileresponsive.png" alt="mobile-responsive">
 
 ### Tablet Responsive
 
-<img src="/assets/screenshots/tabletresponsive.png" alt="signup">
+<img src="/assets/screenshots/tabletresponsive.png" alt="tablet-responsive">
 
 ## License
 
