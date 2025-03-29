@@ -29,6 +29,7 @@
 body {
   font-family: var(--global-font-family);
   overflow-x: hidden;
+  width: 100%;
 }
 header {
   background: var(--primary-color);
@@ -39,6 +40,12 @@ a {
 }
 a:hover {
   color: var(--hover-color);
+}
+main,
+footer {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /*Navbar*/
@@ -225,6 +232,7 @@ a:hover {
   box-shadow: 0 0 0 0 var(--primary-color);
   display: flex;
 }
+
 .owl-dots {
   text-align: center;
 }
@@ -258,6 +266,11 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--white-color);
+}
+@media (max-width: 768px) {
+  .client-review .fs-1 {
+    font-size: 1.5rem !important;
+  }
 }
 .carousel-inner {
   height: auto;
